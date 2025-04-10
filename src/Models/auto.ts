@@ -1,3 +1,5 @@
+import { UUID } from './UUID';
+
 export type Auto = {
     patente: string;
     marca: string;
@@ -6,6 +8,6 @@ export type Auto = {
     color: string;
     nroChasis: string;
     nroMotor: string;
+    // Relationships
+    owner: UUID;
 };
-
-export type AutoListings = Pick<Auto, 'patente' | 'marca' | 'modelo' | 'anho'>;
