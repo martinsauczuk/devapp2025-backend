@@ -1,6 +1,6 @@
 import { Auto, WithId, UUID, InvalidData } from '../../Models';
 import { AbstractTransintRepository } from './AbstractTransientRepository';
-import { db } from './DB';
+import { db } from '.';
 
 export class AutoTransientRepository extends AbstractTransintRepository<Auto> {
     protected collection = db.autos;

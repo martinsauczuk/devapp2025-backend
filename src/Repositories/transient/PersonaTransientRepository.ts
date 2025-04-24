@@ -1,7 +1,7 @@
 import { Temporal } from 'temporal-polyfill';
 import { InvalidData, Persona, UUID, WithId } from '../../Models';
 import { AbstractTransintRepository } from './AbstractTransientRepository';
-import { db } from './DB';
+import { db } from './db';
 
 export class PersonaTransientRepository extends AbstractTransintRepository<Persona> {
     protected collection = db.personas;
