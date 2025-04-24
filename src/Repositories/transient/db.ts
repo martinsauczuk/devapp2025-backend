@@ -1,4 +1,4 @@
-import { UUID, WithId, Persona, Auto } from '../../models';
+import { UUID, WithId, Persona, Auto } from '../../Models';
 import { Temporal } from 'temporal-polyfill';
 import process from 'process';
 

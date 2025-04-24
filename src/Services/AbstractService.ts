@@ -1,4 +1,4 @@
-import { InvalidData, NonExistentElement, UUID, WithId } from '../models';
+import { InvalidData, NonExistentElement, UUID, WithId } from '../Models';
 import { IRepository } from '../repositories';
 import { IService } from './IService';
 

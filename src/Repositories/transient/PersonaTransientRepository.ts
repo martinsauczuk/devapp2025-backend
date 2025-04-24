@@ -1,5 +1,5 @@
 import { Temporal } from 'temporal-polyfill';
-import { InvalidData, Persona, UUID, WithId } from '../../models';
+import { InvalidData, Persona, UUID, WithId } from '../../Models';
 import { AbstractTransintRepository } from './AbstractTransientRepository';
 import { db } from './DB';
 

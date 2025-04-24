@@ -1,6 +1,6 @@
 import process from 'process';
 import { IRepository } from './IRepository';
-import { Auto, Persona } from '../models';
+import { Auto, Persona } from '../Models';
 import { AutoTransientRepository, PersonaTransientRepository } from './transient';
 
 export abstract class RepositoryFactory {

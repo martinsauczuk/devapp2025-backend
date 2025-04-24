@@ -1,4 +1,4 @@
-import { UUID, WithId } from '../models';
+import { UUID, WithId } from '../Models';
 
 export interface IRepository<TEntity> {
     all(): WithId<TEntity>[];

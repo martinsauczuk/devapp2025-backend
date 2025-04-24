@@ -1,4 +1,4 @@
-import { UUID, WithId } from '../../models';
+import { UUID, WithId } from '../../Models';
 import { IRepository } from '../IRepository';
 import crypto from 'crypto';
 

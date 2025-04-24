@@ -1,4 +1,4 @@
-import { Auto, WithId, UUID, InvalidData } from '../../models';
+import { Auto, WithId, UUID, InvalidData } from '../../Models';
 import { AbstractTransintRepository } from './AbstractTransientRepository';
 import { db } from './DB';
 
