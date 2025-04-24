@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import { BREADController } from './BREADController';
-import { ServiceFactory } from '../services/ServiceFactory';
-import { AutoService, IService } from '../services';
+import { AutoService, IService, ServiceFactory } from '../services';
 import { Auto, UUID, WithId } from '../Models';
 import { AutoDTO } from '../DTO';
 
