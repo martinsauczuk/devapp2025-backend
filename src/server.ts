@@ -9,7 +9,7 @@ import { AutoController, PersonaController } from './Controllers';
 // Creamos nuestra app express
 const app = express();
 // Leemos el puerto de las variables de entorno, si no está, usamos uno por default
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 3000;
 
 // Configuramos los plugins
 // Más adelante intentaremos entender mejor cómo funcionan estos plugins
