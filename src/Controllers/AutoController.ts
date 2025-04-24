@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
-import { AutoDTO } from '../DTO';
-import { IService, ServiceFactory } from '../services';
 import { BREADController } from './BREADController';
 import { AutoService } from '../services/AutoService';
-import { Auto } from '../Models/Auto';
+import { Auto } from '../Models/index';
 import { UUID, WithId } from '../Models/UUID';
+import { ServiceFactory } from '../services/ServiceFactory';
+import { IService } from '../services/index';
+import { AutoDTO } from '../DTO/index';
 
 export class AutoController extends BREADController<Auto, AutoDTO> {
     protected service: IService<Auto, AutoDTO> = ServiceFactory.autoService();
