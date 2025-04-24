@@ -1,7 +1,7 @@
 import { Temporal } from 'temporal-polyfill';
 import { PersonaDTO } from '../DTO';
 import { Persona, WithId } from '../Models';
-import { IRepository, RepositoryFactory } from '../repositories';
+import { IRepository, RepositoryFactory } from '../Repositories';
 import { AbstractService } from './AbstractService';
 
 export class PersonaService extends AbstractService<Persona, PersonaDTO, IRepository<Persona>> {

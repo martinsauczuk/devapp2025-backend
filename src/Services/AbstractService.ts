@@ -1,5 +1,5 @@
 import { InvalidData, NonExistentElement, UUID, WithId } from '../Models';
-import { IRepository } from '../repositories';
+import { IRepository } from '../Repositories';
 import { IService } from './IService';
 
 export abstract class AbstractService<TEntity, TListings, TRepository extends IRepository<TEntity>>
