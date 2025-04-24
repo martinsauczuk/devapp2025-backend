@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { WithId } from '../Models';
 import { IService } from '../Services';
-import { catching } from '../helpers';
+import { catching } from '../Helpers';
 
 export abstract class BREADController<TEntity, TDto> {
     protected abstract service: IService<TEntity, TDto>;
