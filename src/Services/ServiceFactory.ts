@@ -1,7 +1,8 @@
 import { IService } from './IService';
-import { Auto, AutoDTO, Persona, PersonaDTO } from '../models';
+import { Auto, Persona } from '../models';
 import { AutoService } from './AutoService';
 import { PersonaService } from './PersonaService';
+import { AutoDTO, PersonaDTO } from '../DTO';
 
 export abstract class ServiceFactory {
     private static personaServiceSingletonInstance: IService<Persona, PersonaDTO> | undefined = undefined;

@@ -53,7 +53,7 @@ export class AutoService extends AbstractService<Auto, AutoDTO, IRepository<Auto
             errors['anho'] = 'The field is required';
         }
         if (entity['anho'] && typeof entity['anho'] !== 'number') {
-            errors['anho'] = 'The field must be a string';
+            errors['anho'] = 'The field must be a number';
         }
 
         if (entity['color'] === undefined) {
